@@ -11,7 +11,7 @@
 
     <title>WordCampConferenceCorpus</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" id="home" >
 	  <!-- navbar -->
 	  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
@@ -55,7 +55,7 @@
   <div class="row">
     <div class="col-lg order-lg-2 ">
 		<div class="container pt-4">
-      <h3 class="mb-4">About WordCamp</h3>
+      <h3 class="mb-4" id="about">About WordCamp</h3>
 			 
 			<img class="img-fluid rounded" src="https://via.placeholder.com/1024x436.png" alt="Photo of San Antonio, TX">
 <p>The beautiful city of Corpus Christi, TX will be the host city for WordCamp!</p>
@@ -63,15 +63,24 @@
     </div>
 	  </div>
     <div class="col-lg order-lg-1">
-      <h3 class="mb-4">Expert Speakers</h3>
+      <h3 class="mb-4" id="speakers">Expert Speakers</h3>
 		
 <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
 <p>Want to meet the international WordPress community and share skills with some of the world's top experts and makers? Be the first to know what to expect for the future of WordPress.</p>
 <p>WordCamp is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
 		
-	
-		
   <!-- /about -->
+		<div class="col-lg order-3">
+     <h3 class="mb-4">What You'll Learn</h3>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
+</div>
+		
 		<!-- speakers -->
 		<h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
 <div class="row">
@@ -238,7 +247,7 @@
   </div>
 <!-- /footer -->
     <div class="col-lg order-3">
-     <h3 class="mb-4" >What You'll Learn</h3>
+     <h3 class="mb-4">What You'll Learn</h3>
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
   <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
@@ -247,7 +256,7 @@
   <a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
   <a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
 </div>
-
+		</div>
     </div>
   </div>
 		
