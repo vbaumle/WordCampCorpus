@@ -265,9 +265,10 @@
       <div class="modal-body">
        <form>
 		   <div class="alert alert-dark" role="alert">
-  Hurry! Early Bird Registration ends in<mark>Two</mark> days!
+  <strong>Hurry!</strong> Early Bird Registration ends in TWO days!
 		   </div>
-		  <h2>Basic Info</h2> 
+		  
+		  <h5 class="mt-3"><strong>Basic Info</strong></h5> 
 		     <div class="form-group">
     <label for="formGroupExampleInput">Name:</label>
     <input type="text" class="form-control" id="NamePlate" placeholder="Name">
@@ -286,10 +287,11 @@
       <option>Other</option>
     </select>
   </div>
-		  <h2> Which Topics Interest You Most?</h2>
+		   
+		  <h5 class="mt-3"><strong> Which Topics Interest You Most?</strong></h5>
   <div class="form-check">
   <input class="form-check-input" type="checkbox" name="WordPressPlugins" id="WordPressPlugin" value="option1" checked>
-  <label class="form-check-label" for="exampleRadios1">
+  <label class="form-check-label" for="plugins">
    WordPress Plugins
   </label>
 </div>
@@ -305,27 +307,28 @@
   CSS and JavaScript
   </label>
 </div>
-		   <h2>Payment Info</h2>
+		   <h5 class="mt-3"><strong>Payment Info</strong></h5>
   <div class="form-row">
 	 
     <div class="col-7">
-		<label for="CardNumber">Card Number</label>
+		<label for="CardNumber">Card Number:</label>
       <input type="text" class="form-control" placeholder="Credit Card">
     </div>
     <div class="col">
-		<label for="Zip">Zip</label>
+		<label for="Zip">Zip:</label>
       <input type="text" class="form-control" placeholder="Zip Code">
     </div>
     <div class="col">
-		<label for="CVV">CVV</label>
+		<label for="CVV">CVV:</label>
       <input type="text" class="form-control" placeholder="CVV">
     </div>
   </div>
 		   
-		  <h2>Expiration Date</h2>
+		<label for="ExpirationDate">Expiration Date:</label>
 		   <div class="form-row">
+		 
 			<div class="col-7"> 
-    <label for="Month">Month</label>
+    <label for="Month">Month:</label>
     <select class="form-control" id="Month">
       <option>January</option>
       <option>February</option>
@@ -341,8 +344,8 @@
 	  <option>December</option>
     </select>
 			   </div>
-				<div class="col-5">
-				<label for="Year">Year</label>
+				<div class="col-4">
+				<label for="Year">Year:</label>
 				<select class="form-control" id="Year">
 					<option>2019</option>
 					<option>2020</option>
@@ -353,7 +356,7 @@
 				</div>
 		   </div>
 		  
-		 <button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-2">Register</button>  
+		<button class="btn btn-secondary mt-3" type="submit">Register</button>
 </form>
       </div>
       <div class="modal-footer">
