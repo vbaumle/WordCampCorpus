@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background: url("bg1.png");
+	background-size: cover;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border-style: groove;
+	
+
+
+}
+
+.jumbotron {background: url("ContainerBackground2.png");
+
+}
+
+#speakerRow{background: url("ContainerBackground3.png");
+}
+
+#AboutWC {background: url("ContainerBackground4.png");
+	
+
+
+}
+
+#speakerTop {background: url("ContainerBackground5.png")
+
+}
+
+#SpeakerPara {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+
+}
+
+#Learn {background: url("ContainerBackground6.png");
+
+}
+
+#speaker{background:url("Containerbackground4.png");
+
+
+}
+
+#schedule{background:url("Containerbackground4.png");
+
+}
