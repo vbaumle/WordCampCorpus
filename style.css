@@ -15,6 +15,7 @@ body {background: url("bg1.png");
 }
 
 #speakerRow{background: url("ContainerBackground3.png");
+	padding-top: 20px;
 }
 
 #AboutWC {background: url("ContainerBackground4.png");
@@ -42,5 +43,12 @@ body {background: url("bg1.png");
 }
 
 #schedule{background:url("Containerbackground4.png");
+
+}
+
+#navbarSupportedContent{background:url("ContainerBackground6.png");
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	
+
 
 }
