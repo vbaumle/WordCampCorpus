@@ -3,7 +3,7 @@
 @import url("css/background.css");
 /* CSS Document */
 
-body {background: url("bg1.png");
+body {background: url("images/bg1.png");
 	background-size: cover;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	border-style: groove;
@@ -16,11 +16,11 @@ body {background: url("bg1.png");
 
 }
 
-#speakerRow{background: url("3.png");
+#speakerRow{background: url("images/ContainerBackground3.png");
 	padding-top: 20px;
 }
 
-#AboutWC {background: url("4.png");
+#AboutWC {background: url("images/ContainerBackground4.png");
 	
 
 
