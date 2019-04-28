@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url("css/style.css");
+@import url("css/background.css");
 /* CSS Document */
 
 body {background: url("bg1.png");
@@ -10,21 +12,21 @@ body {background: url("bg1.png");
 
 }
 
-.jumbotron {background: url("ContainerBackground2.png");
+.jumbotron {background: url("images/ContainerBackground2.png");
 
 }
 
-#speakerRow{background: url("ContainerBackground3.png");
+#speakerRow{background: url("3.png");
 	padding-top: 20px;
 }
 
-#AboutWC {background: url("ContainerBackground4.png");
+#AboutWC {background: url("4.png");
 	
 
 
 }
 
-#speakerTop {background: url("ContainerBackground5.png")
+#speakerTop {background: url("images/ContainerBackground5.png")
 
 }
 
@@ -33,20 +35,20 @@ body {background: url("bg1.png");
 
 }
 
-#Learn {background: url("ContainerBackground6.png");
+#Learn {background: url("images/ContainerBackground6.png");
 
 }
 
-#speaker{background:url("Containerbackground4.png");
+#speaker{background:url("images/Containerbackground4.png");
 
 
 }
 
-#schedule{background:url("Containerbackground4.png");
+#schedule{background:url("images/Containerbackground4.png");
 
 }
 
-#navbarSupportedContent{background:url("ContainerBackground6.png");
+#navbarSupportedContent{background:url("images/ContainerBackground6.png");
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	
 
